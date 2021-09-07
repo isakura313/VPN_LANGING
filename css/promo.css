@@ -1,0 +1,31 @@
+.promo_wrapper{
+    display: flex;
+    margin: 88px 83px 0 150px;
+}
+.promo{
+
+}
+.promo__heading{
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 20px;
+    color: var(--black_color);
+}
+.promo__content{
+    font-family: Rubik;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--black_color);
+}
+.promo__btn{
+
+}
+.promo__img{
+    background-image: url('../img/man_laptop.svg');
+    height: 482px;
+    background-size: contain;
+    width: 850px;
+    background-repeat: no-repeat;
+}
