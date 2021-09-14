@@ -1,0 +1,55 @@
+.advant{
+margin: 105px auto;
+width: 70%;
+border-radius: 10px;
+box-shadow: 2px 5px 10px var(--black_second);
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+height: 150px;
+}
+.advant__part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #EEEFF2;
+    margin-top: 37px;
+    margin-bottom: 37px;
+}
+.advant__part:last-of-type {
+    border-right: 0
+}
+.advant__img{
+width: 55px;
+height: 55px;
+border-radius: 50%;
+background-color: #FFECEC;
+display: flex;
+justify-content: center;
+align-items: center;
+color: var(--red_color);
+margin-right: 52px;
+}
+
+.advant__img span:hover{
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.advant__wrap__count{
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--black_color);
+}
+
+/* TODO сделать анимации обратного хода */
+
+
+.advant__wrap__info{
+    font-family: Rubik;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--black_second);
+}

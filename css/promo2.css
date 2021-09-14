@@ -1,0 +1,11 @@
+.promo_second{
+    display: flex;
+    margin: 0 150px 126px 184px;
+}
+.promo_second__img{
+    background-image: url('../img/Illustration_2.svg');
+    height: 500px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}   
