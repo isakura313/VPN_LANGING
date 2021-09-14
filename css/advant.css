@@ -1,0 +1,41 @@
+.advant{
+    margin: 105px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 3px 4px 10px var(--black_color);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 200px;
+}
+.advant__part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #EEEFF2;
+    margin-top: 37px;
+    margin-bottom: 37px;
+}
+.advant__part:last-of-type{
+    border-right: 0
+}
+
+.advant__img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #FFECEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--red_color);
+    margin-right: 20px;
+}
+.advant_wrap{
+
+}
+.advant_wrap__count{
+
+}
+.advant_wrap__info{
+    
+}
