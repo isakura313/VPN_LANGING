@@ -1,0 +1,35 @@
+.plans_wrapper {
+  width: 72%;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  height: 760px;
+  margin: 0 auto;
+  column-gap: 3.5%;
+}
+.plans {
+  border: 2px solid #dddddd;
+  height: 100%;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.plans__img {
+  background-image: url("../img/box.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  grid-row: 2/5;
+  height: 166px;
+  width: 144px;
+}
+.plans__h5 {
+}
+.plans__ul {
+}
+.plans__p {
+}
+.plans__btn {
+}
