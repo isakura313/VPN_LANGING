@@ -1,0 +1,28 @@
+.global {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.global__h3 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    justify-content: center;
+    width: 20%;
+    text-align: center;
+}
+
+.global__p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    width: 30%;
+    text-align: center;
+   
+}
