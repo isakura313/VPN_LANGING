@@ -1,0 +1,48 @@
+.promo_second {
+  display: flex;
+  margin: 0 150px 126px 184px;
+}
+.promo_second__img {
+  background-image: url("../img/man_selebrate.svg");
+  height: 500px;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.promo_second__wrap {
+  display: grid;
+  grid-template-rows: 30% 24% 46%;
+}
+.promo_second__h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+}
+.promo_second__content {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+.promo_second__list li {
+  font-family: Rubik;
+  font-size: 14px;
+  line-height: 30px;
+  list-style-type: none;
+  align-items: center;
+}
+.promo_second__list li:before {
+  content: "";
+  background-image: url("../img/Group\ 1122.svg");
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 10px;
+  background-repeat: none;
+  background-position: center center;
+}

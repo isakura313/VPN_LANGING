@@ -1,54 +1,52 @@
-.wrapper{
-    margin: 50px 150px 0px 50px;
+.header {
+  width: 82%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
+.header .logo {
+  display: flex;
+  align-items: center;
 }
-.header .logo{
-    display: flex;
-    align-items: center;
+.header .logo h5 {
+  padding-left: 10px;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
 }
-.header .logo h5{
-    padding-left: 10px;
-    font-family: Rubik;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
+.header .logo h5 span {
+  font-weight: bold;
 }
-.header .logo h5 span{
-    font-weight: bold;
+.nav {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
 }
-.nav{
-    display: flex;
-    width: 40%;
-    justify-content: space-between;
-    align-items: center;
+.nav a {
+  text-decoration: none;
+  color: var(--black_second_color);
+  font-family: Rubik;
+  font-size: 16px;
 }
-.nav a{
-    text-decoration: none;
-    color: var(--black_second_color);
-    font-family: Rubik;
-    font-size: 16px;
+.nav a:hover {
+  color: var(--red_color);
 }
-.nav a:hover{
-    color: var(--red_color);
+.reg_form {
+  display: flex;
+  width: 233px;
+  justify-content: space-between;
+  align-items: center;
 }
-.reg_form{
-    display: flex;
-    width: 233px;
-    justify-content: space-between;
-    align-items: center;
+.auth {
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 500;
 }
-.auth{
-    font-family: 'Rubik';
-    font-size: 16px;
-    font-weight: 500;
-}
-.sign_up{
-    color: var(--red_color);
-    border-radius: 50px;
-    border: 1px solid var(--red_color);
-    padding: 13px 45px
-
+.sign_up {
+  color: var(--red_color);
+  border-radius: 50px;
+  border: 1px solid var(--red_color);
+  padding: 13px 45px;
 }
