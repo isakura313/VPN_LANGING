@@ -12,6 +12,7 @@
 .promo_second__wrap {
   display: grid;
   grid-template-rows: 30% 24% 46%;
+  width: 32%;
 }
 .promo_second__h3 {
   display: flex;
@@ -23,26 +24,33 @@
   line-height: 50px;
 }
 .promo_second__content {
+  display: flex;
   font-family: Rubik;
   font-size: 16px;
-  font-weight: normal;
+  line-height: 30px;
   display: flex;
   align-items: center;
+}
+.promo_second__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .promo_second__list li {
   font-family: Rubik;
   font-size: 14px;
   line-height: 30px;
   list-style-type: none;
+  display: flex;
   align-items: center;
 }
 .promo_second__list li:before {
   content: "";
-  background-image: url("../img/Group\ 1122.svg");
-  width: 24px;
-  height: 24px;
-  display: inline-block;
+  background-image: url("../img/tick.svg");
+  width: 20px;
+  height: 20px;
+  background: contain;
   margin-right: 10px;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-position: center center;
 }
