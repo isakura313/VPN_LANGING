@@ -1,55 +1,62 @@
 .header {
-  width: 82%;
-  margin: 50px auto;w
-  display: flex;
-  justify-content: space-between;
+    width: 82%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
 }
+
 .header .logo {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
+
 .header .logo h5 {
-  padding-left: 10px;
-  font-weight: 500;
-  font-family: Rubik;
-  font-size: 20px;
-  line-height: 24px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-family: Rubik;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 .header .logo h5 span {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .nav {
-  display: flex;
-  width: 40%;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .nav a {
-  text-decoration: none;
-  color: var(--black_second_color);
-  font-family: "Rubik";
-  font-size: 16px;
+    text-decoration: none;
+    color: var(--black_second_color);
+    font-family: "Rubik";
+    font-size: 16px;
 }
+
 .nav a:hover {
-  color: var(--red_color);
-  transition: all 0.3s;
+    color: var(--red_color);
+    transition: all 0.3s;
 }
+
 .reg_form {
-  display: flex;
-  width: 233px;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    width: 233px;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .auth {
-  font-family: "Rubik";
-  font-size: 16px;
-  font-weight: 500;
+    font-family: "Rubik";
+    font-size: 16px;
+    font-weight: 500;
 }
+
 .sign_up {
-  color: var(--red_color);
-  border-radius: 50px;
-  border: 1px solid var(--red_color);
-  padding: 13px 45px;
+    color: var(--red_color);
+    border-radius: 50px;
+    border: 1px solid var(--red_color);
+    padding: 13px 45px;
 }
