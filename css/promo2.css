@@ -1,0 +1,56 @@
+.promo_second {
+  display: flex;
+  margin: 0 150px 126px 184px;
+}
+.promo_second__img {
+  background-image: url("../img/man_selebrate.svg");
+  height: 500px;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.promo_second__wrap {
+  display: grid;
+  grid-template-rows: 30% 24% 46%;
+  width: 32%;
+}
+.promo_second__h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+}
+.promo_second__content {
+  display: flex;
+  font-family: Rubik;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+.promo_second__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.promo_second__list li {
+  font-family: Rubik;
+  font-size: 14px;
+  line-height: 30px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.promo_second__list li:before {
+  content: "";
+  background-image: url("../img/tick.svg");
+  width: 20px;
+  height: 20px;
+  background: contain;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
