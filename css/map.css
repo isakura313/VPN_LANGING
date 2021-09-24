@@ -1,0 +1,9 @@
+.map {
+  background-image: url(../img/Huge\ Global.svg);
+  background-repeat: no-repeat;
+  width: 1060px;
+  height: 537.77px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
