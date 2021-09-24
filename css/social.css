@@ -21,13 +21,13 @@
 }
 .social__img.amazon{
     display: flex;
-    background-image: url('../img/Amazon.svg');
-    height: 50px;
-    width: 155px;
+    background-image: url('../img/amazon.png');
+    height: 40px;
+    width: 130px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-right: 0px;
     background-position: center center;
+    margin: 12px 0px 0px 30px;
     
 }
 .social__img.discord{
