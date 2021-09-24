@@ -1,0 +1,49 @@
+.social{
+    display: flex;
+    padding: 0 5px;
+}
+.social__img.netflix{
+    display: flex;
+    background-image: url('../img/Netflix.svg');
+    height: 60px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.social__img.reddit{
+    display: flex;
+    background-image: url('../img/Reddit.svg');
+    height: 50px;
+    width: 155px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.social__img.amazon{
+    display: flex;
+    background-image: url('../img/Amazon.svg');
+    height: 50px;
+    width: 155px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    background-position: center center;
+    
+}
+.social__img.discord{
+    display: flex;
+    background-image: url('../img/Discord.svg');
+    height: 50px;
+    width: 155px;
+    margin: 0px 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.social__img.spotify{
+    display: flex;
+    background-image: url('../img/Spotify.svg');
+    height: 50px;
+    width: 155px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
