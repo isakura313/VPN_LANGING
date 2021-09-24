@@ -1,11 +1,11 @@
 .advant{
-margin: 105px auto;
-width: 70%;
-border-radius: 10px;
-box-shadow: 2px 5px 10px var(--black_second);
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-height: 150px;
+    margin: 105px auto;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px var(--light_grey);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 130px;
 }
 .advant__part{
     display: flex;
@@ -15,41 +15,37 @@ height: 150px;
     margin-top: 37px;
     margin-bottom: 37px;
 }
-.advant__part:last-of-type {
+.advant__part:last-of-type{
     border-right: 0
 }
+
 .advant__img{
-width: 55px;
-height: 55px;
-border-radius: 50%;
-background-color: #FFECEC;
-display: flex;
-justify-content: center;
-align-items: center;
-color: var(--red_color);
-margin-right: 52px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #FFECEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--red_color);
+    margin-right: 52px;
 }
-
 .advant__img span:hover{
-    font-size: 20px;
+    font-size: 30px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: all 0.5s;
 }
-
-.advant__wrap__count{
+.advant_wrap__count{
     font-family: Rubik;
     font-weight: bold;
     font-size: 25px;
     line-height: 30px;
     color: var(--black_color);
 }
-
-/* TODO сделать анимации обратного хода */
-
-
-.advant__wrap__info{
+/* TODO сделать анимации обратного исчезнования */
+.advant_wrap__info{
     font-family: Rubik;
     font-size: 20px;
     line-height: 30px;
-    color: var(--black_second);
+    color: var(--black_second_color);
 }
