@@ -5,7 +5,22 @@
     align-items: center;
 }
 
+.global__p span {
+    font-weight: bold;
+}
+
 .global__h3 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    justify-content: center;
+    width: 20%;
+    text-align: center;
+}
+
+.promo__heading {
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
@@ -24,5 +39,4 @@
     line-height: 30px;
     width: 30%;
     text-align: center;
-   
 }
