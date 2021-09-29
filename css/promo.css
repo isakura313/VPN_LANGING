@@ -5,9 +5,10 @@
 }
 .promo {
   display: grid;
-  grid-template-rows: 160px 110px 85px;
+  grid-template-rows: 50% 20% 30%;
   width: 700px;
 }
+
 .promo__heading {
   font-family: Rubik;
   font-weight: 500;
