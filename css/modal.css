@@ -12,12 +12,22 @@
 #close {
   color: white;
   position: absolute;
-  right: 1%;
+  right: 4%;
   top: 1%;
   font-size: 25px;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
 }
 #close:hover {
+  background-color: #fff;
   cursor: pointer;
+  color: var(--red_color);
+  border: 1px solid black;
+  border-radius: 50%;
 }
 
 form {
@@ -30,6 +40,13 @@ label {
   font-size: 20px;
   margin-top: 5px;
   margin-bottom: 15px;
+}
+form input {
+  padding: 4px;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  border: 0;
 }
 
 form button {
