@@ -45,3 +45,21 @@ btn_submit.onclick = function (e) {
     alert("Вы забыли ввести почту");
   }
 };
+
+const answers = document.querySelectorAll(".answer");
+const quests = Array.from(document.querySelectorAll(".quest"));
+const answers_arr = Array.from(answers);
+answers_arr.map((value, index) => {
+  value.style.marginTop = "40px";
+  value.style.marginBottom = "40px";
+  value.style.marginLeft = `${20 + (index + 1) ** 3}px`;
+  // полезное действие
+});
+quests.map((el, i) => {
+  el.onclick = function () {
+    answers_arr[i].style.display = "block";
+  };
+});
+// quests[0].onclick = function () {
+//   answers_arr[0].style.display = "block";
+// };

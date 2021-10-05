@@ -60,3 +60,11 @@ form button {
   border: 0px;
   border-radius: 10px;
 }
+
+.answer {
+  display: none;
+}
+.quest {
+  display: block;
+  margin-bottom: 10px;
+}
