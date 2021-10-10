@@ -57,9 +57,24 @@ answers_arr.map((value, index) => {
 });
 quests.map((el, i) => {
   el.onclick = function () {
-    answers_arr[i].style.display = "block";
+    if (answers_arr[i].style.display == "") {
+      answers_arr[i].style.display = "block";
+      answers_arr[i].classList.remove("hide");
+      answers_arr[i].classList.add("show");
+    } else {
+      setTimeout(() => (answers_arr[i].style.display = ""), 1000);
+      answers_arr[i].classList.remove("show");
+      answers_arr[i].classList.add("hide");
+    }
   };
 });
-// quests[0].onclick = function () {
-//   answers_arr[0].style.display = "block";
-// };
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let arr2 = ["x", "y"];
+let obj2 = {
+  x: 10,
+  y: 20,
+};
+// arr2[Math.round(Math.random())]
+console.log(arr[0]);
+console.log(obj2[arr2[Math.round(Math.random())]]);

@@ -64,6 +64,39 @@ form button {
 .answer {
   display: none;
 }
+.show {
+  animation-name: show;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-direction: normal;
+}
+.hide {
+  animation-name: hide;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    margin-left: -200px;
+  }
+  to {
+    opacity: 1;
+    margin-left: 10px;
+  }
+}
+@keyframes hide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    margin-left: -200px;
+  }
+}
 .quest {
   display: block;
   margin-bottom: 10px;
